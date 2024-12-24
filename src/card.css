@@ -1,0 +1,63 @@
+/* Default styles for larger screens */
+.bg-white {
+    width: 500px;
+    height: 250px;
+  }
+  
+  img {
+    width: 176px;
+    height: 176px;
+  }
+  
+  button {
+    padding: 12px 32px;
+    font-size: 16px;
+  }
+  
+  /* Media queries for smaller screens */
+  @media (max-width: 768px) {
+    .bg-white {
+      width: 90%; /* Card width adjusts to fit the screen */
+      height: auto; /* Allow height to adjust naturally */
+      flex-direction: column; /* Stack image and details vertically */
+      padding: 16px;
+    }
+  
+    img {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 16px;
+    }
+  
+    .ml-10 {
+      margin-left: 0;
+      text-align: center; /* Center-align text for smaller screens */
+    }
+  
+    button {
+      padding: 10px 20px;
+      font-size: 14px;
+      margin: 8px;
+    }
+  
+    .mt-16 {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column; /* Stack buttons vertically */
+      gap: 12px;
+      align-items: center; /* Center buttons */
+    }
+  }
+  
+  /* Media queries for extra small screens (e.g., mobile phones) */
+  @media (max-width: 480px) {
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    button {
+      width: 80%;
+    }
+  }
+  
