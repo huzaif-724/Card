@@ -2,3 +2,8 @@
 
 
 ![Screenshot 2024-12-24 193313](https://github.com/user-attachments/assets/6de79ab7-18eb-4edc-9dcc-5d530d9fd3ce)
+
+
+Steps to run:
+1. install npm
+2. npm start
